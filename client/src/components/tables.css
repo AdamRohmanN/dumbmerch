@@ -1,0 +1,115 @@
+.h3-input {
+    margin-bottom: 2.5rem;
+}
+.table-image {
+    object-fit: cover;
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+.add-button {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.add-button a {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background: var(--primary);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.table-category thead tr th {width: 33.33%;}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead tr {
+    background: #303030;
+    border-bottom: 2px solid var(--light1);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+thead tr th {padding: 1.5rem 0.5rem;}
+tbody tr {
+    background: #232323;
+    border-bottom: 2px solid var(--light1);
+    color: white;
+    text-align: left;
+}
+tbody tr td {padding: 1rem 0.5rem;}
+tbody tr td span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+tbody tr:nth-of-type(even) {background: #303030;}
+tbody tr:last-of-type {border-bottom: 0;}
+td a {color: white;}
+
+.action-button div {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.action-button div button {
+    padding: 0.6rem 1rem;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.action-button div button:first-of-type {background: #56C05A;}
+.action-button div button:last-of-type {background: #F74D4D;}
+
+.modal {
+    width: 30rem;
+    position: absolute;
+    top: 50%;
+    right: 15rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    background:  white;
+    color: black;
+}
+.modal h3 {
+    padding: 2rem 1rem 0.5rem;
+}
+.modal p {
+    padding: 0 1rem 1.5rem;
+}
+.modal div {
+    width: 40%;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.modal button {
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.75rem;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.modal button:first-of-type {background: #56C05A;}
+.modal button:last-of-type {background: #F74D4D;}
+
+@media screen and (max-width: 512px) {
+    th, td {padding: 1.5rem 0.5rem;}
+
+    th:nth-child(1), td:nth-child(1) {display: none;}
+    th:nth-child(5), td:nth-child(5) {display: none;}
+    th:nth-child(6), td:nth-child(6) {display: none;}
+}

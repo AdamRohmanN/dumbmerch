@@ -1,0 +1,78 @@
+.auth {
+    display: flex;
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+}
+.auth section {
+    width: 50%;
+}
+
+.heading img {
+    width: 13rem;
+    height: auto;
+}
+.heading h1 {
+    margin: 1.5rem 0 1rem;
+    font-size: 2.75rem;
+}
+.heading p {
+    margin: 0 0 5rem;
+    color: var(--light4);
+}
+.heading a {
+    padding: 0.5rem 2.5rem;
+    color: var(--light1);
+    font-weight: bold;
+    text-decoration: none;
+}
+.heading a:first-of-type {
+    background: var(--primary);
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+.res-log form {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--dark4);
+    border-radius: 10px;
+}
+.res-log h2 {
+    margin: 0.5rem 0 1.5rem;
+}
+.res-log h4 {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+    text-align: center;
+}
+.res-log p {
+    margin-top: 0.5rem;
+    color: var(--light4);
+    font-size: 0.8rem;
+    text-align: center;
+}
+.res-log a {
+    color: var(--light3);
+}
+.res-log input {
+    padding: 0.5rem;
+    margin: 0 0 1rem;
+    background: var(--dark1);
+    border: 2px solid var(--light1);
+    border-radius: 5px;
+    color: var(--lightest);
+}
+.res-log button {
+    padding: 0.6rem 2.5rem;
+    margin: 1rem 0 0.5rem;
+    background: var(--primary);
+    border: 0;
+    border-radius: 5px;
+    color: #f0f0f0;
+    font-weight: bold;
+}

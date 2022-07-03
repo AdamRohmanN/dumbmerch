@@ -1,0 +1,91 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1440px;
+    padding: 7.5rem 0 3rem;
+    margin: auto;
+}
+.profile section h3 {
+    margin: 0 0 1.5rem;
+    color: var(--primary);
+}
+
+.user {
+    width: 60%;
+}
+.user article {
+    display: flex;
+}
+.user article img {
+    object-fit: cover;
+    width: 40%;
+    aspect-ratio: 338/435;
+    border-radius: 5px;
+}
+.user article div {
+    width: 60%;
+    height: 25rem;
+    padding: 0 0 0 2rem;
+}
+.user article div h4 {
+    margin: 0 0 0.5rem;
+    color: var(--primary);
+}
+.user article div p {
+    margin: 0 0 1.5rem;
+    line-height: 1.5;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.user article div p:last-of-type {
+    -webkit-line-clamp: 3;
+}
+
+.card {
+    width: 37.5%;
+}
+.card article:first-of-type {
+    border: 0;
+}
+.card article {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    background: var(--dark2);
+    border-top: 1px solid var(--gray);
+}
+.card article img {
+    object-fit: cover;
+    height: 82%;
+    aspect-ratio: 2 / 3;
+    margin: 0 0 0 1.2rem;
+}
+.card article div {
+    margin: 0 0 0 0.75rem;
+}
+.card article div h5 {
+    margin: 0 0 0.25rem;
+    color: var(--primary);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.card article div p:first-of-type {
+    color: var(--primary);
+}
+.card article div p {
+    margin: 0 0 0.5rem;
+    font-size: 0.7rem;
+}
+.card article div p:last-of-type {
+    font-weight: bold;
+    margin: 1.5rem 0 0;
+}
+.card article img:last-of-type {
+    object-fit: contain;
+    margin: 0 1.5rem 0 auto
+}

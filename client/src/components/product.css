@@ -1,0 +1,40 @@
+.product-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 1rem;
+    justify-items: stretch;
+}
+.product-card {
+    background: var(--dark3);
+    border-radius: 5px;
+}
+
+.product-card img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 241 / 312;
+    border-radius: 5px 5px 0 0;
+}
+.product-card div {
+    padding: 0.5rem 0.9rem 0.3rem ;
+}
+.product-card h4 {
+    margin-bottom: 0.4rem;
+    color: var(--primary);
+}
+.product-card p {
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.product-card h4, .product-card p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.product-card h4 {
+    -webkit-line-clamp: 2;
+}
+.product-card p {
+    -webkit-line-clamp: 1;
+}

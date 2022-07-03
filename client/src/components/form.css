@@ -1,0 +1,61 @@
+.preview-image {
+    object-fit: cover;
+    position: absolute;
+    max-width: 50%;
+    height: 150px;
+    top: 4.75rem;
+    right: 5%;
+}
+.upload-image {
+    display: flex;
+    margin: 2.5rem 0 1rem;
+    align-items: center;
+}
+.upload-image label {
+    padding: 0.75rem;
+    background: var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.upload-image p {
+    max-width: 35%;
+    margin-left: 1rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.input-form, .input-form {
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+    margin-bottom: 1rem;
+    background: var(--dark1);
+    border: 2px solid var(--light1);
+    border-radius: 5px;
+    color: var(--lightest);
+    resize: vertical;
+}
+.input-form p {
+    margin-bottom: 0.5rem;
+    color: #757575;
+    font-size: 0.9rem;
+}
+.input-button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 2.5rem;
+    background: #56C05A;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.checkbox {
+    margin: 0 0.5rem;
+}
+.checkbox span {
+    margin-left: 0.25rem;
+}
